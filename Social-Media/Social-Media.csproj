@@ -64,12 +64,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Data.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
+=======
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+>>>>>>> cb6abed83e07d32f612683294f25f4daae48ae0e
     </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
@@ -99,6 +107,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
@@ -121,6 +130,7 @@
     <Folder Include="Component\" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
@@ -131,6 +141,24 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+=======
+    <None Include="bin\Debug\picture\icon-home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\picture\icon-homeClick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\picture\icon-person.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\picture\icon-personClick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\picture\icon-bell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\picture\icon-bellClick.png" />
+>>>>>>> cb6abed83e07d32f612683294f25f4daae48ae0e
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
