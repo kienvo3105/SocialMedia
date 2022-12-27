@@ -16,5 +16,13 @@ namespace Social_Media
         {
             InitializeComponent();
         }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+            Home home = new Home();
+            home.TopLevel = false;
+            pnl_form.Controls.Add(home);
+            home.Show();
+        }
     }
 }

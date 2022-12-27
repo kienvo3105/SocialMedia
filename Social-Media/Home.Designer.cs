@@ -36,7 +36,6 @@ namespace Social_Media
             this.txt_status = new CustomControls.RJControls.RJTextBox();
             this.pic_picture = new System.Windows.Forms.PictureBox();
             this.pic_film = new System.Windows.Forms.PictureBox();
-            this.bt_post = new CustomControls.RJControls.RJButton();
             this.fLP_home.SuspendLayout();
             this.pnl_post.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.rjCircularPictureBox1)).BeginInit();
@@ -60,7 +59,6 @@ namespace Social_Media
             this.pnl_post.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pnl_post.Controls.Add(this.pic_film);
             this.pnl_post.Controls.Add(this.pic_picture);
-            this.pnl_post.Controls.Add(this.bt_post);
             this.pnl_post.Controls.Add(this.txt_status);
             this.pnl_post.Controls.Add(this.rjCircularPictureBox1);
             this.pnl_post.Dock = System.Windows.Forms.DockStyle.Top;
@@ -70,7 +68,7 @@ namespace Social_Media
             this.pnl_post.GradientTopColor = System.Drawing.Color.White;
             this.pnl_post.Location = new System.Drawing.Point(3, 3);
             this.pnl_post.Name = "pnl_post";
-            this.pnl_post.Size = new System.Drawing.Size(813, 154);
+            this.pnl_post.Size = new System.Drawing.Size(813, 96);
             this.pnl_post.TabIndex = 0;
             // 
             // rjCircularPictureBox1
@@ -83,9 +81,9 @@ namespace Social_Media
             this.rjCircularPictureBox1.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
             this.rjCircularPictureBox1.BorderSize = 2;
             this.rjCircularPictureBox1.GradientAngle = 50F;
-            this.rjCircularPictureBox1.Location = new System.Drawing.Point(19, 14);
+            this.rjCircularPictureBox1.Location = new System.Drawing.Point(37, 3);
             this.rjCircularPictureBox1.Name = "rjCircularPictureBox1";
-            this.rjCircularPictureBox1.Size = new System.Drawing.Size(74, 74);
+            this.rjCircularPictureBox1.Size = new System.Drawing.Size(56, 56);
             this.rjCircularPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.rjCircularPictureBox1.TabIndex = 0;
             this.rjCircularPictureBox1.TabStop = false;
@@ -97,9 +95,9 @@ namespace Social_Media
             this.txt_status.BorderFocusColor = System.Drawing.Color.HotPink;
             this.txt_status.BorderRadius = 18;
             this.txt_status.BorderSize = 2;
-            this.txt_status.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_status.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_status.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.txt_status.Location = new System.Drawing.Point(100, 34);
+            this.txt_status.Location = new System.Drawing.Point(100, 14);
             this.txt_status.Margin = new System.Windows.Forms.Padding(4);
             this.txt_status.Multiline = false;
             this.txt_status.Name = "txt_status";
@@ -107,7 +105,7 @@ namespace Social_Media
             this.txt_status.PasswordChar = false;
             this.txt_status.PlaceholderColor = System.Drawing.Color.DarkGray;
             this.txt_status.PlaceholderText = "";
-            this.txt_status.Size = new System.Drawing.Size(680, 40);
+            this.txt_status.Size = new System.Drawing.Size(680, 35);
             this.txt_status.TabIndex = 1;
             this.txt_status.Texts = "Hãy viết nội dung của bạn";
             this.txt_status.UnderlinedStyle = false;
@@ -117,9 +115,9 @@ namespace Social_Media
             this.pic_picture.BackColor = System.Drawing.Color.Transparent;
             this.pic_picture.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pic_picture.BackgroundImage")));
             this.pic_picture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pic_picture.Location = new System.Drawing.Point(100, 90);
+            this.pic_picture.Location = new System.Drawing.Point(128, 59);
             this.pic_picture.Name = "pic_picture";
-            this.pic_picture.Size = new System.Drawing.Size(44, 44);
+            this.pic_picture.Size = new System.Drawing.Size(30, 30);
             this.pic_picture.TabIndex = 3;
             this.pic_picture.TabStop = false;
             // 
@@ -127,30 +125,11 @@ namespace Social_Media
             // 
             this.pic_film.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pic_film.BackgroundImage")));
             this.pic_film.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pic_film.Location = new System.Drawing.Point(196, 90);
+            this.pic_film.Location = new System.Drawing.Point(214, 56);
             this.pic_film.Name = "pic_film";
-            this.pic_film.Size = new System.Drawing.Size(44, 44);
+            this.pic_film.Size = new System.Drawing.Size(30, 30);
             this.pic_film.TabIndex = 4;
             this.pic_film.TabStop = false;
-            // 
-            // bt_post
-            // 
-            this.bt_post.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(145)))), ((int)(((byte)(255)))));
-            this.bt_post.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(145)))), ((int)(((byte)(255)))));
-            this.bt_post.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.bt_post.BorderRadius = 15;
-            this.bt_post.BorderSize = 0;
-            this.bt_post.FlatAppearance.BorderSize = 0;
-            this.bt_post.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_post.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_post.ForeColor = System.Drawing.Color.White;
-            this.bt_post.Location = new System.Drawing.Point(348, 90);
-            this.bt_post.Name = "bt_post";
-            this.bt_post.Size = new System.Drawing.Size(432, 36);
-            this.bt_post.TabIndex = 2;
-            this.bt_post.Text = "Đăng";
-            this.bt_post.TextColor = System.Drawing.Color.White;
-            this.bt_post.UseVisualStyleBackColor = false;
             // 
             // Home
             // 
@@ -179,7 +158,6 @@ namespace Social_Media
         private CustomControls.RJControls.RJCircularPictureBox rjCircularPictureBox1;
         private System.Windows.Forms.PictureBox pic_film;
         private System.Windows.Forms.PictureBox pic_picture;
-        private CustomControls.RJControls.RJButton bt_post;
         private CustomControls.RJControls.RJTextBox txt_status;
     }
 }
