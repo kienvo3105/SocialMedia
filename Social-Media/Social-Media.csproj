@@ -52,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Component\comment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\comment.Designer.cs">
+      <DependentUpon>comment.cs</DependentUpon>
+    </Compile>
     <Compile Include="Component\Post.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Component\comment.resx">
+      <DependentUpon>comment.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Component\Post.resx">
       <DependentUpon>Post.cs</DependentUpon>
     </EmbeddedResource>
