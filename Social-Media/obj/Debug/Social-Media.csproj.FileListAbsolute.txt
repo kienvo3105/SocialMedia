@@ -5,8 +5,10 @@ E:\OneDrive - Trường ĐH CNTT - University of Information Technology\2022-202
 E:\OneDrive - Trường ĐH CNTT - University of Information Technology\2022-2023\CS511_C#\Do An\Social-Media\Social-Media\obj\Debug\Social_Media.Properties.Resources.resources
 E:\OneDrive - Trường ĐH CNTT - University of Information Technology\2022-2023\CS511_C#\Do An\Social-Media\Social-Media\obj\Debug\Social-Media.csproj.GenerateResource.cache
 E:\OneDrive - Trường ĐH CNTT - University of Information Technology\2022-2023\CS511_C#\Do An\Social-Media\Social-Media\obj\Debug\Social-Media.csproj.CoreCompileInputs.cache
-E:\OneDrive - Trường ĐH CNTT - University of Information Technology\2022-2023\CS511_C#\Do An\Social-Media\Social-Media\obj\Debug\Social-Media.exe
 E:\OneDrive - Trường ĐH CNTT - University of Information Technology\2022-2023\CS511_C#\Do An\Social-Media\Social-Media\obj\Debug\Social-Media.pdb
 E:\OneDrive - Trường ĐH CNTT - University of Information Technology\2022-2023\CS511_C#\Do An\Social-Media\Social-Media\obj\Debug\Social_Media.Main.resources
 E:\OneDrive - Trường ĐH CNTT - University of Information Technology\2022-2023\CS511_C#\Do An\Social-Media\Social-Media\bin\Debug\CustomControl.dll
 E:\OneDrive - Trường ĐH CNTT - University of Information Technology\2022-2023\CS511_C#\Do An\Social-Media\Social-Media\obj\Debug\Social-Media.csproj.CopyComplete
+E:\OneDrive - Trường ĐH CNTT - University of Information Technology\2022-2023\CS511_C#\Do An\Social-Media\Social-Media\obj\Debug\Social_Media.Component.Post.resources
+E:\OneDrive - Trường ĐH CNTT - University of Information Technology\2022-2023\CS511_C#\Do An\Social-Media\Social-Media\obj\Debug\Social_Media.Home.resources
+E:\OneDrive - Trường ĐH CNTT - University of Information Technology\2022-2023\CS511_C#\Do An\Social-Media\Social-Media\obj\Debug\Social_Media.Component.comment.resources

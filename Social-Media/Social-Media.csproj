@@ -36,6 +36,9 @@
     <Reference Include="CustomControl">
       <HintPath>..\..\..\..\..\Máy tính\CustomControl.dll</HintPath>
     </Reference>
+    <Reference Include="Social-Media">
+      <HintPath>obj\Debug\Social-Media.exe</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -49,6 +52,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Component\comment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\comment.Designer.cs">
+      <DependentUpon>comment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\Post.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\Post.Designer.cs">
+      <DependentUpon>Post.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +78,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Component\comment.resx">
+      <DependentUpon>comment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\Post.resx">
+      <DependentUpon>Post.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
@@ -68,6 +98,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -84,7 +115,36 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Class\" />
-    <Folder Include="Component\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\picture\icon-home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\picture\icon-homeClick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\picture\icon-person.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\picture\icon-personClick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\picture\icon-bell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\picture\icon-bellClick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\picture\icon-like.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\picture\icon-liked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\picture\icon-save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\picture\icon-saveClick.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

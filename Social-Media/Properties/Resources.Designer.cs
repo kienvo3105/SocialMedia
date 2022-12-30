@@ -103,6 +103,26 @@ namespace Social_Media.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icon_like {
+            get {
+                object obj = ResourceManager.GetObject("icon-like", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_liked {
+            get {
+                object obj = ResourceManager.GetObject("icon-liked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_person {
             get {
                 object obj = ResourceManager.GetObject("icon-person", resourceCulture);
@@ -116,6 +136,26 @@ namespace Social_Media.Properties {
         internal static System.Drawing.Bitmap icon_personClick {
             get {
                 object obj = ResourceManager.GetObject("icon-personClick", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_save {
+            get {
+                object obj = ResourceManager.GetObject("icon-save", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_saveClick {
+            get {
+                object obj = ResourceManager.GetObject("icon-saveClick", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace Social_Media
 {
-    public partial class Main: Form
+    public partial class Home : Form
     {
-        public Main()
+        public Home()
         {
             InitializeComponent();
-        }
-
-        private void Main_Load(object sender, EventArgs e)
-        {
-            Home home = new Home();
-            home.TopLevel = false;
-            pnl_form.Controls.Add(home);
-            home.Show();
         }
     }
 }
