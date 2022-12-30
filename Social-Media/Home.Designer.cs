@@ -32,9 +32,9 @@ namespace Social_Media
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.fLP_home = new System.Windows.Forms.FlowLayoutPanel();
             this.pnl_post = new CustomControls.RJControls.RJPanel();
-            this.txt_status = new CustomControls.RJControls.RJTextBox();
             this.pic_film = new System.Windows.Forms.PictureBox();
             this.pic_picture = new System.Windows.Forms.PictureBox();
+            this.txt_status = new CustomControls.RJControls.RJTextBox();
             this.rjCircularPictureBox1 = new CustomControls.RJControls.RJCircularPictureBox();
             this.post1 = new Social_Media.Component.Post();
             this.fLP_home.SuspendLayout();
@@ -74,6 +74,27 @@ namespace Social_Media
             this.pnl_post.Size = new System.Drawing.Size(813, 96);
             this.pnl_post.TabIndex = 0;
             // 
+            // pic_film
+            // 
+            this.pic_film.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pic_film.BackgroundImage")));
+            this.pic_film.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pic_film.Location = new System.Drawing.Point(214, 56);
+            this.pic_film.Name = "pic_film";
+            this.pic_film.Size = new System.Drawing.Size(30, 30);
+            this.pic_film.TabIndex = 4;
+            this.pic_film.TabStop = false;
+            // 
+            // pic_picture
+            // 
+            this.pic_picture.BackColor = System.Drawing.Color.Transparent;
+            this.pic_picture.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pic_picture.BackgroundImage")));
+            this.pic_picture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pic_picture.Location = new System.Drawing.Point(128, 59);
+            this.pic_picture.Name = "pic_picture";
+            this.pic_picture.Size = new System.Drawing.Size(30, 30);
+            this.pic_picture.TabIndex = 3;
+            this.pic_picture.TabStop = false;
+            // 
             // txt_status
             // 
             this.txt_status.BackColor = System.Drawing.Color.Gainsboro;
@@ -95,27 +116,6 @@ namespace Social_Media
             this.txt_status.TabIndex = 1;
             this.txt_status.Texts = "Hãy viết nội dung của bạn";
             this.txt_status.UnderlinedStyle = false;
-            // 
-            // pic_film
-            // 
-            this.pic_film.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pic_film.BackgroundImage")));
-            this.pic_film.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pic_film.Location = new System.Drawing.Point(214, 56);
-            this.pic_film.Name = "pic_film";
-            this.pic_film.Size = new System.Drawing.Size(30, 30);
-            this.pic_film.TabIndex = 4;
-            this.pic_film.TabStop = false;
-            // 
-            // pic_picture
-            // 
-            this.pic_picture.BackColor = System.Drawing.Color.Transparent;
-            this.pic_picture.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pic_picture.BackgroundImage")));
-            this.pic_picture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pic_picture.Location = new System.Drawing.Point(128, 59);
-            this.pic_picture.Name = "pic_picture";
-            this.pic_picture.Size = new System.Drawing.Size(30, 30);
-            this.pic_picture.TabIndex = 3;
-            this.pic_picture.TabStop = false;
             // 
             // rjCircularPictureBox1
             // 
@@ -141,6 +141,7 @@ namespace Social_Media
             this.post1.MaximumSize = new System.Drawing.Size(813, 20000);
             this.post1.MinimumSize = new System.Drawing.Size(813, 0);
             this.post1.Name = "post1";
+            this.post1.Radius = 50;
             this.post1.Size = new System.Drawing.Size(813, 872);
             this.post1.TabIndex = 1;
             // 
