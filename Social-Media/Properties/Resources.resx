@@ -124,28 +124,34 @@
   <data name="icon-home" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\picture\icon-home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon-liked" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\picture\icon-liked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon-person" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\picture\icon-person.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon-personClick" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\picture\icon-personClick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon-homeClick" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\picture\icon-homeClick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon-saveClick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\picture\icon-saveClick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon-bell" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\picture\icon-bell.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon-person" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\picture\icon-person.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon-like" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\picture\icon-like.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon-liked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\picture\icon-liked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon-save" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\picture\icon-save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon-saveClick" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\picture\icon-saveClick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon-bell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\picture\icon-bell.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-homeClick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\picture\icon-homeClick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-like" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\picture\icon-like.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-hide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\picture\icon-hide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-view" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\picture\icon-view.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

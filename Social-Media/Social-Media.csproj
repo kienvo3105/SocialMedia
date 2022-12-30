@@ -146,5 +146,11 @@
   <ItemGroup>
     <None Include="bin\Debug\picture\icon-saveClick.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\picture\icon-hide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\picture\icon-view.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
