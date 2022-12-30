@@ -16,5 +16,10 @@ namespace Social_Media.Component
         {
             InitializeComponent();
         }
+
+        private void Post_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -32,24 +32,27 @@ namespace Social_Media
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.fLP_home = new System.Windows.Forms.FlowLayoutPanel();
             this.pnl_post = new CustomControls.RJControls.RJPanel();
-            this.rjCircularPictureBox1 = new CustomControls.RJControls.RJCircularPictureBox();
             this.txt_status = new CustomControls.RJControls.RJTextBox();
-            this.pic_picture = new System.Windows.Forms.PictureBox();
             this.pic_film = new System.Windows.Forms.PictureBox();
+            this.pic_picture = new System.Windows.Forms.PictureBox();
+            this.rjCircularPictureBox1 = new CustomControls.RJControls.RJCircularPictureBox();
+            this.post1 = new Social_Media.Component.Post();
             this.fLP_home.SuspendLayout();
             this.pnl_post.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.rjCircularPictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_picture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_film)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_picture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rjCircularPictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // fLP_home
             // 
+            this.fLP_home.AutoSize = true;
             this.fLP_home.Controls.Add(this.pnl_post);
+            this.fLP_home.Controls.Add(this.post1);
             this.fLP_home.Location = new System.Drawing.Point(298, 12);
             this.fLP_home.MaximumSize = new System.Drawing.Size(816, 10000);
             this.fLP_home.Name = "fLP_home";
-            this.fLP_home.Size = new System.Drawing.Size(816, 739);
+            this.fLP_home.Size = new System.Drawing.Size(816, 980);
             this.fLP_home.TabIndex = 0;
             // 
             // pnl_post
@@ -70,23 +73,6 @@ namespace Social_Media
             this.pnl_post.Name = "pnl_post";
             this.pnl_post.Size = new System.Drawing.Size(813, 96);
             this.pnl_post.TabIndex = 0;
-            // 
-            // rjCircularPictureBox1
-            // 
-            this.rjCircularPictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("rjCircularPictureBox1.BackgroundImage")));
-            this.rjCircularPictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.rjCircularPictureBox1.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
-            this.rjCircularPictureBox1.BorderColor = System.Drawing.Color.RoyalBlue;
-            this.rjCircularPictureBox1.BorderColor2 = System.Drawing.Color.HotPink;
-            this.rjCircularPictureBox1.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
-            this.rjCircularPictureBox1.BorderSize = 2;
-            this.rjCircularPictureBox1.GradientAngle = 50F;
-            this.rjCircularPictureBox1.Location = new System.Drawing.Point(37, 3);
-            this.rjCircularPictureBox1.Name = "rjCircularPictureBox1";
-            this.rjCircularPictureBox1.Size = new System.Drawing.Size(56, 56);
-            this.rjCircularPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.rjCircularPictureBox1.TabIndex = 0;
-            this.rjCircularPictureBox1.TabStop = false;
             // 
             // txt_status
             // 
@@ -110,6 +96,16 @@ namespace Social_Media
             this.txt_status.Texts = "Hãy viết nội dung của bạn";
             this.txt_status.UnderlinedStyle = false;
             // 
+            // pic_film
+            // 
+            this.pic_film.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pic_film.BackgroundImage")));
+            this.pic_film.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pic_film.Location = new System.Drawing.Point(214, 56);
+            this.pic_film.Name = "pic_film";
+            this.pic_film.Size = new System.Drawing.Size(30, 30);
+            this.pic_film.TabIndex = 4;
+            this.pic_film.TabStop = false;
+            // 
             // pic_picture
             // 
             this.pic_picture.BackColor = System.Drawing.Color.Transparent;
@@ -121,15 +117,32 @@ namespace Social_Media
             this.pic_picture.TabIndex = 3;
             this.pic_picture.TabStop = false;
             // 
-            // pic_film
+            // rjCircularPictureBox1
             // 
-            this.pic_film.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pic_film.BackgroundImage")));
-            this.pic_film.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pic_film.Location = new System.Drawing.Point(214, 56);
-            this.pic_film.Name = "pic_film";
-            this.pic_film.Size = new System.Drawing.Size(30, 30);
-            this.pic_film.TabIndex = 4;
-            this.pic_film.TabStop = false;
+            this.rjCircularPictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("rjCircularPictureBox1.BackgroundImage")));
+            this.rjCircularPictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.rjCircularPictureBox1.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
+            this.rjCircularPictureBox1.BorderColor = System.Drawing.Color.RoyalBlue;
+            this.rjCircularPictureBox1.BorderColor2 = System.Drawing.Color.HotPink;
+            this.rjCircularPictureBox1.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
+            this.rjCircularPictureBox1.BorderSize = 2;
+            this.rjCircularPictureBox1.GradientAngle = 50F;
+            this.rjCircularPictureBox1.Location = new System.Drawing.Point(37, 3);
+            this.rjCircularPictureBox1.Name = "rjCircularPictureBox1";
+            this.rjCircularPictureBox1.Size = new System.Drawing.Size(56, 56);
+            this.rjCircularPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.rjCircularPictureBox1.TabIndex = 0;
+            this.rjCircularPictureBox1.TabStop = false;
+            // 
+            // post1
+            // 
+            this.post1.BackColor = System.Drawing.Color.White;
+            this.post1.Location = new System.Drawing.Point(3, 105);
+            this.post1.MaximumSize = new System.Drawing.Size(813, 20000);
+            this.post1.MinimumSize = new System.Drawing.Size(813, 0);
+            this.post1.Name = "post1";
+            this.post1.Size = new System.Drawing.Size(813, 872);
+            this.post1.TabIndex = 1;
             // 
             // Home
             // 
@@ -144,10 +157,11 @@ namespace Social_Media
             this.Text = "Home";
             this.fLP_home.ResumeLayout(false);
             this.pnl_post.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.rjCircularPictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_picture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_film)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_picture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rjCircularPictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -159,5 +173,6 @@ namespace Social_Media
         private System.Windows.Forms.PictureBox pic_film;
         private System.Windows.Forms.PictureBox pic_picture;
         private CustomControls.RJControls.RJTextBox txt_status;
+        private Component.Post post1;
     }
 }

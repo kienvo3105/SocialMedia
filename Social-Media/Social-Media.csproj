@@ -36,6 +36,9 @@
     <Reference Include="CustomControl">
       <HintPath>..\..\..\..\..\Máy tính\CustomControl.dll</HintPath>
     </Reference>
+    <Reference Include="Social-Media">
+      <HintPath>obj\Debug\Social-Media.exe</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -121,6 +124,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\picture\icon-bellClick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\picture\icon-like.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\picture\icon-liked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\picture\icon-save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\picture\icon-saveClick.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
