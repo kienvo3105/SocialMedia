@@ -36,7 +36,6 @@ namespace Social_Media
             this.pic_picture = new System.Windows.Forms.PictureBox();
             this.txt_status = new CustomControls.RJControls.RJTextBox();
             this.rjCircularPictureBox1 = new CustomControls.RJControls.RJCircularPictureBox();
-            this.post1 = new Social_Media.Component.Post();
             this.fLP_home.SuspendLayout();
             this.pnl_post.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_film)).BeginInit();
@@ -48,7 +47,6 @@ namespace Social_Media
             // 
             this.fLP_home.AutoSize = true;
             this.fLP_home.Controls.Add(this.pnl_post);
-            this.fLP_home.Controls.Add(this.post1);
             this.fLP_home.Location = new System.Drawing.Point(298, 12);
             this.fLP_home.MaximumSize = new System.Drawing.Size(816, 10000);
             this.fLP_home.Name = "fLP_home";
@@ -134,23 +132,12 @@ namespace Social_Media
             this.rjCircularPictureBox1.TabIndex = 0;
             this.rjCircularPictureBox1.TabStop = false;
             // 
-            // post1
-            // 
-            this.post1.BackColor = System.Drawing.Color.White;
-            this.post1.Location = new System.Drawing.Point(3, 105);
-            this.post1.MaximumSize = new System.Drawing.Size(813, 20000);
-            this.post1.MinimumSize = new System.Drawing.Size(813, 0);
-            this.post1.Name = "post1";
-            this.post1.Radius = 50;
-            this.post1.Size = new System.Drawing.Size(813, 872);
-            this.post1.TabIndex = 1;
-            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1361, 763);
+            this.ClientSize = new System.Drawing.Size(1378, 763);
             this.Controls.Add(this.fLP_home);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Home";
@@ -174,6 +161,5 @@ namespace Social_Media
         private System.Windows.Forms.PictureBox pic_film;
         private System.Windows.Forms.PictureBox pic_picture;
         private CustomControls.RJControls.RJTextBox txt_status;
-        private Component.Post post1;
     }
 }

@@ -54,6 +54,7 @@ namespace Social_Media.Component
             this.panel1 = new System.Windows.Forms.Panel();
             this.pic_avt = new CustomControls.RJControls.RJCircularPictureBox();
             this.comment1 = new Social_Media.Component.comment();
+            this.pic_menu = new System.Windows.Forms.PictureBox();
             this.tbLP_img.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -69,6 +70,7 @@ namespace Social_Media.Component
             this.pnl_comments.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_avt)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_menu)).BeginInit();
             this.SuspendLayout();
             // 
             // lb_user
@@ -305,6 +307,7 @@ namespace Social_Media.Component
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.pic_menu);
             this.panel1.Controls.Add(this.pic_avt);
             this.panel1.Controls.Add(this.lb_time);
             this.panel1.Controls.Add(this.lb_user);
@@ -342,6 +345,16 @@ namespace Social_Media.Component
             this.comment1.Size = new System.Drawing.Size(800, 74);
             this.comment1.TabIndex = 0;
             // 
+            // pic_menu
+            // 
+            this.pic_menu.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pic_menu.BackgroundImage")));
+            this.pic_menu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pic_menu.Location = new System.Drawing.Point(765, 3);
+            this.pic_menu.Name = "pic_menu";
+            this.pic_menu.Size = new System.Drawing.Size(33, 50);
+            this.pic_menu.TabIndex = 3;
+            this.pic_menu.TabStop = false;
+            // 
             // Post
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -376,6 +389,7 @@ namespace Social_Media.Component
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_avt)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_menu)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -406,5 +420,6 @@ namespace Social_Media.Component
         private System.Windows.Forms.RichTextBox rtxt_status;
         private System.Windows.Forms.Panel panel1;
         private comment comment1;
+        private System.Windows.Forms.PictureBox pic_menu;
     }
 }
