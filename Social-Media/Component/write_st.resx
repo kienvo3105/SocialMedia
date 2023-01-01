@@ -117,47 +117,29 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="icon-bellClick" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\picture\icon-bellClick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon-home" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\picture\icon-home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon-like" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\picture\icon-like.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon-personClick" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\picture\icon-personClick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon-homeClick" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\picture\icon-homeClick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon-hide" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\picture\icon-hide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon-liked" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\picture\icon-liked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon-save" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\picture\icon-save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon-bell" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\picture\icon-bell.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon-person" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\picture\icon-person.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon-view" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\picture\icon-view.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon-saveClick" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\picture\icon-saveClick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon-private" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\picture\icon-private.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon-public" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\picture\icon-public.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pic_addpic.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAACxMAAAsTAQCanBgAAARASURBVHhe7ZrNaxNBHIYrXvyCphU9ePDr4EU8+AfoQTwr
+        +AXas1r14kkEURSqp+KlScRvq7ubNGjT0jZakzTNtt16V9FCD1ZFLQgmG28K40ydYWPyNsnObhY37AsP
+        lGbmxz5vdjcbSFuQIEGCBAkSJIgIIWRFetroyuqGnp0yfmanZom/MX5mpmbzWX3mOHPjmjiJRGIl3RDD
+        g/xPRp9VmSPXrU5GN66gja0ELeES1/03hmGspi+aaFNLoRvFXC63imtbyeZn9sINLUhm+tUerm1lIj97
+        GC1eGDjga5ATc+XaVlITk6fQ4tK9Tl+DnMZy+kmubSWZenkDLUZD/QRyejae7uHaVp4+f3ETLUZD/QRy
+        Yq5c24p0Afc7SCneQcyhDlIcCy3B/jbp/0r3wXqPQU7uFEDlzCSV1ttJcXoZ8u3EHGRFUNAMD0BOzgt4
+        ROUz9N1G0gAzS+kHczwAOTkr4BE9vXNYtCZ0T+lhxSwPQE6OCjBfNv7OV2KOh6rmNRvkJF8AvbEhMTuU
+        Bry9HyAn6QKcvPsCNqN8ph0KkY1k8cZmYt5ZD19HICe5Auj1W5zCUragM2TuBYXoBvL16jby5cp2stiz
+        peESkJNcAarz019QUuxdBuXygkZLQE5yBbhw/QtK8X8PshZI3k4JyEmqAFNzsQCt+kARteQF9UpATnJn
+        AH2QQTIyNPJQ1Ii8oFYJyEmuAEpxorFPge/D6+D/l8jW/xSwIy9YrgTkJF2AmaxfwNeHa8ibY23kY+8q
+        +DqbUT6zEhl5ASoBOUkXwL4AFSeXL0HIvz7yl6oSJun1X+MbYiG6UVpeUFkCcpIvgKHi54FK+aoS6B52
+        I62ax3FDXlBeAnJyVgDFpI+z5SUsJy9gJZgJb+QFogTk5LgAhkkfZorpUF15waeLq+EcJ9d8PRavb67y
+        YbhSAONbz7qG5AWVJRRuUflrW+HBuwVycqWAJfmjWLQWogQv5BnIyXEBsvKChQtrPZFnICdHBTiVF8yf
+        6YAH7DbISboAt+QFXpSAnKQKcFteMN8dggfuFsjJdgHNkhc0swTkZKuAZssLmlUCcrJVgBfygmbcE5CT
+        rQLQgTYTt88E5PRfF8BwswTk9N8XwHCrBOTkiwIYbpSAnHxTAMNpCcjJVwUwnJSAnGABg6nxXrT4/flN
+        dZnr7iRzp0NN5cPVHeRz727bIKdB6sq1rSRGUy3/I0lBbGTsMte2cice70rnZ+CGVoI53o7FTnBtK2FF
+        OTgwmoKbWon46BhhrlzbSp+i7IqoGkm+yMCNrUByPE0iWoyENW0n17bCfkoeUbR3rIQnyWEyksmRtG7A
+        QX6CnfIj6Rx5PDRMmFtY1d5y5epEVXV/WFF/s4UtiaL+imraPq6LE36iHaElFOAAf/MjoiiHuGbt9PX3
+        r48q2rmwoj2gp0zC11CHiKqevZtIdHK9IEGCBAnyN21tfwDvQ9OYVM52wAAAAABJRU5ErkJggg==
+</value>
   </data>
 </root>

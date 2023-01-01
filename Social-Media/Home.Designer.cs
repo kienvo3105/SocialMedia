@@ -137,7 +137,7 @@ namespace Social_Media
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1378, 763);
+            this.ClientSize = new System.Drawing.Size(1480, 763);
             this.Controls.Add(this.fLP_home);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Home";

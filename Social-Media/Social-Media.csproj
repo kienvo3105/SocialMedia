@@ -64,6 +64,12 @@
     <Compile Include="Component\Post.Designer.cs">
       <DependentUpon>Post.cs</DependentUpon>
     </Compile>
+    <Compile Include="Component\write_st.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\write_st.Designer.cs">
+      <DependentUpon>write_st.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Component\Post.resx">
       <DependentUpon>Post.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\write_st.resx">
+      <DependentUpon>write_st.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
@@ -151,6 +160,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\picture\icon-view.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\picture\icon-private.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\picture\icon-public.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
