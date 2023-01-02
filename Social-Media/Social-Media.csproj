@@ -64,11 +64,11 @@
     <Compile Include="Component\Post.Designer.cs">
       <DependentUpon>Post.cs</DependentUpon>
     </Compile>
-    <Compile Include="Component\write_st.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="Form_component\write.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Component\write_st.Designer.cs">
-      <DependentUpon>write_st.cs</DependentUpon>
+    <Compile Include="Form_component\write.Designer.cs">
+      <DependentUpon>write.cs</DependentUpon>
     </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
@@ -90,8 +90,8 @@
     <EmbeddedResource Include="Component\Post.resx">
       <DependentUpon>Post.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Component\write_st.resx">
-      <DependentUpon>write_st.cs</DependentUpon>
+    <EmbeddedResource Include="Form_component\write.resx">
+      <DependentUpon>write.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>

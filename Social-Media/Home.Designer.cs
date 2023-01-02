@@ -34,13 +34,15 @@ namespace Social_Media
             this.pnl_post = new CustomControls.RJControls.RJPanel();
             this.pic_film = new System.Windows.Forms.PictureBox();
             this.pic_picture = new System.Windows.Forms.PictureBox();
-            this.txt_status = new CustomControls.RJControls.RJTextBox();
             this.rjCircularPictureBox1 = new CustomControls.RJControls.RJCircularPictureBox();
+            this.rjPanel1 = new CustomControls.RJControls.RJPanel();
+            this.label1 = new System.Windows.Forms.Label();
             this.fLP_home.SuspendLayout();
             this.pnl_post.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_film)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_picture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rjCircularPictureBox1)).BeginInit();
+            this.rjPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // fLP_home
@@ -58,9 +60,9 @@ namespace Social_Media
             this.pnl_post.BackColor = System.Drawing.Color.White;
             this.pnl_post.BorderRadius = 100;
             this.pnl_post.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnl_post.Controls.Add(this.rjPanel1);
             this.pnl_post.Controls.Add(this.pic_film);
             this.pnl_post.Controls.Add(this.pic_picture);
-            this.pnl_post.Controls.Add(this.txt_status);
             this.pnl_post.Controls.Add(this.rjCircularPictureBox1);
             this.pnl_post.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnl_post.ForeColor = System.Drawing.Color.Black;
@@ -93,28 +95,6 @@ namespace Social_Media
             this.pic_picture.TabIndex = 3;
             this.pic_picture.TabStop = false;
             // 
-            // txt_status
-            // 
-            this.txt_status.BackColor = System.Drawing.Color.Gainsboro;
-            this.txt_status.BorderColor = System.Drawing.Color.Transparent;
-            this.txt_status.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.txt_status.BorderRadius = 18;
-            this.txt_status.BorderSize = 2;
-            this.txt_status.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_status.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.txt_status.Location = new System.Drawing.Point(100, 14);
-            this.txt_status.Margin = new System.Windows.Forms.Padding(4);
-            this.txt_status.Multiline = false;
-            this.txt_status.Name = "txt_status";
-            this.txt_status.Padding = new System.Windows.Forms.Padding(7);
-            this.txt_status.PasswordChar = false;
-            this.txt_status.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.txt_status.PlaceholderText = "";
-            this.txt_status.Size = new System.Drawing.Size(680, 35);
-            this.txt_status.TabIndex = 1;
-            this.txt_status.Texts = "Hãy viết nội dung của bạn";
-            this.txt_status.UnderlinedStyle = false;
-            // 
             // rjCircularPictureBox1
             // 
             this.rjCircularPictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("rjCircularPictureBox1.BackgroundImage")));
@@ -132,6 +112,34 @@ namespace Social_Media
             this.rjCircularPictureBox1.TabIndex = 0;
             this.rjCircularPictureBox1.TabStop = false;
             // 
+            // rjPanel1
+            // 
+            this.rjPanel1.BackColor = System.Drawing.Color.White;
+            this.rjPanel1.BorderRadius = 40;
+            this.rjPanel1.Controls.Add(this.label1);
+            this.rjPanel1.ForeColor = System.Drawing.Color.Black;
+            this.rjPanel1.GradientAngle = 90F;
+            this.rjPanel1.GradientBottomColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.rjPanel1.GradientTopColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.rjPanel1.Location = new System.Drawing.Point(128, 9);
+            this.rjPanel1.Name = "rjPanel1";
+            this.rjPanel1.Size = new System.Drawing.Size(648, 41);
+            this.rjPanel1.TabIndex = 5;
+            this.rjPanel1.Click += new System.EventHandler(this.rjPanel1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Gray;
+            this.label1.Location = new System.Drawing.Point(25, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(148, 18);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Bạn đang nghĩ gì thế?";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -148,6 +156,8 @@ namespace Social_Media
             ((System.ComponentModel.ISupportInitialize)(this.pic_film)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_picture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rjCircularPictureBox1)).EndInit();
+            this.rjPanel1.ResumeLayout(false);
+            this.rjPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -160,6 +170,7 @@ namespace Social_Media
         private CustomControls.RJControls.RJCircularPictureBox rjCircularPictureBox1;
         private System.Windows.Forms.PictureBox pic_film;
         private System.Windows.Forms.PictureBox pic_picture;
-        private CustomControls.RJControls.RJTextBox txt_status;
+        private CustomControls.RJControls.RJPanel rjPanel1;
+        private System.Windows.Forms.Label label1;
     }
 }
