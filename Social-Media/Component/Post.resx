@@ -24390,6 +24390,30 @@
         zLEhQfH3TAAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="pic_menu.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAACxMAAAsTAQCanBgAAAN1SURBVHhe7d25i111GIfxISk07v+AaypR/wDRCCKColi5
+        gAsoimiiEFCEaJW4FC6VS+UuCi5gTCFWKjYSY62iWJuohbhb6fOFmWZ4c73n/qZ5D88HHjjcmXublzn3
+        bHPOmiRJkiRJkiRJkiRJUnOn0W30Hn1Nv6+X5XfpVjqVNDPb6X76kf79n47RHsp7NAP5iz5E1bAX9RGd
+        QWrsJPqSqgEv0xHaQWrqbaoGO6U3SQ1dRdVAV+lKUjNZfVfDXKXDpEZ2UjXIkc4jNXEfVUMcaTepiWeo
+        GuJIT5GaeIOqIY6Uz1QTz1M1xJGeJTXxMFVDHGkfqYlLqRriSBeTmsiJnKNUDXKVfqBtpEYepGqYq7SX
+        1MyJ9B1VA53SN3QCqaHz6ReqBrtMv9IFpMZ20U9UDXhRuXgk79UM5Dj+J1QNuupjOoc0M9fQQfqDNg89
+        r71PV5NmLlcKXUi5ZiBl2St/JEmSJEmSJEmSJEnq63S6iR6lV9bL8o2Um0hppnKJV/6/7x/afDXQRvnZ
+        63Q2aUbupr+pGnrVX3QnaQaeoGrIy/QYqbE7qBrslLL2UEP5zp+y2j9e+To4i9TMVt4k4lVSI9nVW7S1
+        P7WsSdxFbCT7+dUgR7qB1MTjVA1xpAOkJl6maogjvURqIsOqhjjSi6QmcgCnGuJI+0lN5MRONcSRric1
+        cQptxUGgjfJZPkqmmdeoGuYq5ZSxmskp3RzGrQY6pT/pTFJDt1M11CndRWpsZI8gVwppBnJxx5Svg6z2
+        s/bQjOSUbjYMF+0d5GfZ4PM7f8ayO5fjBDm2n0PGKQd5crLHXT1JkiRJkiRJkiRJkvo6mS6iPCEsZTkP
+        ktLMXUeHKJd8bb4aKK99QNeSZmYnfUabh368PqU8bFIzcBn9TNWgF5XHzea9amwrHh6dh0qqoTw+/nuq
+        Bjulb8nHxzf0EFUDXaUHSI1sp2NUDXOVjtI2UhPZeKsGOdIlpCYeoWqII+0jNfECVUMc6TlSE1t5l9CN
+        8plq4mmqhjjSk6Qm9lA1xJHuJTWRO4VXQxzpXFIjh6ka5Cp9TmrmcqqGuUpXkBp6i6qBTsmt/8Z20BGq
+        BrtMX1A+Q43lti8HqRrwoj6kPHhCM5CTQ7tpmRNEOfFzD3nyZ4ZyD+Fb6B36in5bL8t57WbK70iSJEmS
+        JEmSJEmSJDW1tvYf2lEknD1+gmUAAAAASUVORK5CYII=
+</value>
+  </data>
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <data name="pic_avt.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEBLAEsAAD/4RagRXhpZgAATU0AKgAAAAgADAEAAAMAAAABEoYAAAEBAAMAAAAB

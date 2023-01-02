@@ -33,8 +33,8 @@ namespace Social_Media.Component
             this.pic_avar = new CustomControls.RJControls.RJCircularPictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.rjPanel1 = new CustomControls.RJControls.RJPanel();
-            this.lb_name = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.lb_name = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pic_avar)).BeginInit();
             this.panel1.SuspendLayout();
             this.rjPanel1.SuspendLayout();
@@ -83,19 +83,6 @@ namespace Social_Media.Component
             this.rjPanel1.Size = new System.Drawing.Size(746, 74);
             this.rjPanel1.TabIndex = 2;
             // 
-            // lb_name
-            // 
-            this.lb_name.AutoSize = true;
-            this.lb_name.BackColor = System.Drawing.Color.Transparent;
-            this.lb_name.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lb_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_name.Location = new System.Drawing.Point(0, 0);
-            this.lb_name.Name = "lb_name";
-            this.lb_name.Padding = new System.Windows.Forms.Padding(10, 5, 10, 5);
-            this.lb_name.Size = new System.Drawing.Size(76, 25);
-            this.lb_name.TabIndex = 0;
-            this.lb_name.Text = "Kien Vo";
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -109,6 +96,19 @@ namespace Social_Media.Component
             this.label1.Size = new System.Drawing.Size(760, 49);
             this.label1.TabIndex = 1;
             this.label1.Text = resources.GetString("label1.Text");
+            // 
+            // lb_name
+            // 
+            this.lb_name.AutoSize = true;
+            this.lb_name.BackColor = System.Drawing.Color.Transparent;
+            this.lb_name.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lb_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_name.Location = new System.Drawing.Point(0, 0);
+            this.lb_name.Name = "lb_name";
+            this.lb_name.Padding = new System.Windows.Forms.Padding(10, 5, 10, 5);
+            this.lb_name.Size = new System.Drawing.Size(76, 25);
+            this.lb_name.TabIndex = 0;
+            this.lb_name.Text = "Kien Vo";
             // 
             // comment
             // 

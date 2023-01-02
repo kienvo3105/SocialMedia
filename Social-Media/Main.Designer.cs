@@ -35,28 +35,28 @@ namespace Social_Media
             this.pic_bell = new System.Windows.Forms.PictureBox();
             this.pic_person = new System.Windows.Forms.PictureBox();
             this.pic_home = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.txt_search = new CustomControls.RJControls.RJTextBox();
+            this.pic_search = new System.Windows.Forms.PictureBox();
             this.pic_logo = new System.Windows.Forms.PictureBox();
             this.pnl_form = new System.Windows.Forms.Panel();
+            this.txt_seach = new CustomControls.RJControls.RJTextBox();
             this.pnl_header.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_avr)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_bell)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_person)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_home)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_search)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_logo)).BeginInit();
             this.SuspendLayout();
             // 
             // pnl_header
             // 
             this.pnl_header.BackColor = System.Drawing.Color.White;
+            this.pnl_header.Controls.Add(this.pic_search);
+            this.pnl_header.Controls.Add(this.txt_seach);
             this.pnl_header.Controls.Add(this.pic_avr);
             this.pnl_header.Controls.Add(this.pic_bell);
             this.pnl_header.Controls.Add(this.pic_person);
             this.pnl_header.Controls.Add(this.pic_home);
-            this.pnl_header.Controls.Add(this.pictureBox1);
-            this.pnl_header.Controls.Add(this.txt_search);
             this.pnl_header.Controls.Add(this.pic_logo);
             this.pnl_header.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnl_header.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -112,39 +112,16 @@ namespace Social_Media
             this.pic_home.TabIndex = 3;
             this.pic_home.TabStop = false;
             // 
-            // pictureBox1
+            // pic_search
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Gainsboro;
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(506, 34);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(28, 28);
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
-            // txt_search
-            // 
-            this.txt_search.BackColor = System.Drawing.Color.Gainsboro;
-            this.txt_search.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.txt_search.BorderColor = System.Drawing.Color.Transparent;
-            this.txt_search.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.txt_search.BorderRadius = 15;
-            this.txt_search.BorderSize = 2;
-            this.txt_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_search.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.txt_search.Location = new System.Drawing.Point(88, 27);
-            this.txt_search.Margin = new System.Windows.Forms.Padding(4);
-            this.txt_search.Multiline = false;
-            this.txt_search.Name = "txt_search";
-            this.txt_search.Padding = new System.Windows.Forms.Padding(7);
-            this.txt_search.PasswordChar = false;
-            this.txt_search.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.txt_search.PlaceholderText = "";
-            this.txt_search.Size = new System.Drawing.Size(460, 35);
-            this.txt_search.TabIndex = 1;
-            this.txt_search.Texts = "Tìm kiếm người dùng";
-            this.txt_search.UnderlinedStyle = false;
+            this.pic_search.BackColor = System.Drawing.Color.Gainsboro;
+            this.pic_search.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pic_search.BackgroundImage")));
+            this.pic_search.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pic_search.Location = new System.Drawing.Point(516, 34);
+            this.pic_search.Name = "pic_search";
+            this.pic_search.Size = new System.Drawing.Size(28, 28);
+            this.pic_search.TabIndex = 2;
+            this.pic_search.TabStop = false;
             // 
             // pic_logo
             // 
@@ -165,6 +142,29 @@ namespace Social_Media
             this.pnl_form.Size = new System.Drawing.Size(1364, 783);
             this.pnl_form.TabIndex = 1;
             // 
+            // txt_seach
+            // 
+            this.txt_seach.BackColor = System.Drawing.Color.Gainsboro;
+            this.txt_seach.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.txt_seach.BorderColor = System.Drawing.Color.Transparent;
+            this.txt_seach.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.txt_seach.BorderRadius = 15;
+            this.txt_seach.BorderSize = 2;
+            this.txt_seach.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_seach.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.txt_seach.Location = new System.Drawing.Point(97, 27);
+            this.txt_seach.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_seach.Multiline = false;
+            this.txt_seach.Name = "txt_seach";
+            this.txt_seach.Padding = new System.Windows.Forms.Padding(7);
+            this.txt_seach.PasswordChar = false;
+            this.txt_seach.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.txt_seach.PlaceholderText = "";
+            this.txt_seach.Size = new System.Drawing.Size(460, 35);
+            this.txt_seach.TabIndex = 7;
+            this.txt_seach.Texts = "Tìm kiếm người dùng";
+            this.txt_seach.UnderlinedStyle = false;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -181,7 +181,7 @@ namespace Social_Media
             ((System.ComponentModel.ISupportInitialize)(this.pic_bell)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_person)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_home)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_search)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_logo)).EndInit();
             this.ResumeLayout(false);
 
@@ -191,13 +191,13 @@ namespace Social_Media
 
         private System.Windows.Forms.Panel pnl_header;
         private System.Windows.Forms.PictureBox pic_logo;
-        private CustomControls.RJControls.RJTextBox txt_search;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pic_search;
         private System.Windows.Forms.PictureBox pic_home;
         private CustomControls.RJControls.RJCircularPictureBox pic_avr;
         private System.Windows.Forms.PictureBox pic_bell;
         private System.Windows.Forms.PictureBox pic_person;
         private System.Windows.Forms.Panel pnl_form;
+        private CustomControls.RJControls.RJTextBox txt_seach;
     }
 }
 

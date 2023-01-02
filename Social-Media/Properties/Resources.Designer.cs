@@ -83,6 +83,16 @@ namespace Social_Media.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icon_delete {
+            get {
+                object obj = ResourceManager.GetObject("icon-delete", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_hide {
             get {
                 object obj = ResourceManager.GetObject("icon-hide", resourceCulture);

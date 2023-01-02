@@ -69,5 +69,10 @@ namespace Social_Media.Component
             base.OnSizeChanged(e);
             this.RecreateRegion();
         }
+
+        private void pic_menu_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
