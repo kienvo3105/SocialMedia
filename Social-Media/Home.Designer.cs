@@ -32,17 +32,17 @@ namespace Social_Media
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.fLP_home = new System.Windows.Forms.FlowLayoutPanel();
             this.pnl_post = new CustomControls.RJControls.RJPanel();
+            this.rjPanel1 = new CustomControls.RJControls.RJPanel();
+            this.label1 = new System.Windows.Forms.Label();
             this.pic_film = new System.Windows.Forms.PictureBox();
             this.pic_picture = new System.Windows.Forms.PictureBox();
             this.rjCircularPictureBox1 = new CustomControls.RJControls.RJCircularPictureBox();
-            this.rjPanel1 = new CustomControls.RJControls.RJPanel();
-            this.label1 = new System.Windows.Forms.Label();
             this.fLP_home.SuspendLayout();
             this.pnl_post.SuspendLayout();
+            this.rjPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_film)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_picture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rjCircularPictureBox1)).BeginInit();
-            this.rjPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // fLP_home
@@ -73,6 +73,34 @@ namespace Social_Media
             this.pnl_post.Name = "pnl_post";
             this.pnl_post.Size = new System.Drawing.Size(813, 96);
             this.pnl_post.TabIndex = 0;
+            // 
+            // rjPanel1
+            // 
+            this.rjPanel1.BackColor = System.Drawing.Color.White;
+            this.rjPanel1.BorderRadius = 40;
+            this.rjPanel1.Controls.Add(this.label1);
+            this.rjPanel1.ForeColor = System.Drawing.Color.Black;
+            this.rjPanel1.GradientAngle = 90F;
+            this.rjPanel1.GradientBottomColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.rjPanel1.GradientTopColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.rjPanel1.Location = new System.Drawing.Point(128, 9);
+            this.rjPanel1.Name = "rjPanel1";
+            this.rjPanel1.Size = new System.Drawing.Size(648, 41);
+            this.rjPanel1.TabIndex = 5;
+            this.rjPanel1.Click += new System.EventHandler(this.rjPanel1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Gray;
+            this.label1.Location = new System.Drawing.Point(25, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(148, 18);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Bạn đang nghĩ gì thế?";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pic_film
             // 
@@ -112,34 +140,6 @@ namespace Social_Media
             this.rjCircularPictureBox1.TabIndex = 0;
             this.rjCircularPictureBox1.TabStop = false;
             // 
-            // rjPanel1
-            // 
-            this.rjPanel1.BackColor = System.Drawing.Color.White;
-            this.rjPanel1.BorderRadius = 40;
-            this.rjPanel1.Controls.Add(this.label1);
-            this.rjPanel1.ForeColor = System.Drawing.Color.Black;
-            this.rjPanel1.GradientAngle = 90F;
-            this.rjPanel1.GradientBottomColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.rjPanel1.GradientTopColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.rjPanel1.Location = new System.Drawing.Point(128, 9);
-            this.rjPanel1.Name = "rjPanel1";
-            this.rjPanel1.Size = new System.Drawing.Size(648, 41);
-            this.rjPanel1.TabIndex = 5;
-            this.rjPanel1.Click += new System.EventHandler(this.rjPanel1_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Gray;
-            this.label1.Location = new System.Drawing.Point(25, 12);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(148, 18);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Bạn đang nghĩ gì thế?";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -153,11 +153,11 @@ namespace Social_Media
             this.Text = "Home";
             this.fLP_home.ResumeLayout(false);
             this.pnl_post.ResumeLayout(false);
+            this.rjPanel1.ResumeLayout(false);
+            this.rjPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_film)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_picture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rjCircularPictureBox1)).EndInit();
-            this.rjPanel1.ResumeLayout(false);
-            this.rjPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
