@@ -169,7 +169,6 @@ namespace Social_Media.Component
 
         private void bt_postCmt_Click(object sender, EventArgs e)
         {
-
         }
     }
 }
