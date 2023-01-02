@@ -30,7 +30,6 @@ namespace Social_Media.Form_component
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(write));
-            this.panel1 = new System.Windows.Forms.Panel();
             this.pic_close = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pic_public = new System.Windows.Forms.PictureBox();
@@ -43,7 +42,6 @@ namespace Social_Media.Form_component
             this.label1 = new System.Windows.Forms.Label();
             this.rjButton1 = new CustomControls.RJControls.RJButton();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_close)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_public)).BeginInit();
@@ -53,20 +51,11 @@ namespace Social_Media.Form_component
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.pic_close);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(522, 46);
-            this.panel1.TabIndex = 0;
-            // 
             // pic_close
             // 
             this.pic_close.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pic_close.BackgroundImage")));
             this.pic_close.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pic_close.Location = new System.Drawing.Point(479, 3);
+            this.pic_close.Location = new System.Drawing.Point(479, 0);
             this.pic_close.Name = "pic_close";
             this.pic_close.Size = new System.Drawing.Size(40, 40);
             this.pic_close.TabIndex = 0;
@@ -75,11 +64,12 @@ namespace Social_Media.Form_component
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.pic_close);
             this.panel2.Controls.Add(this.pic_public);
             this.panel2.Controls.Add(this.lb_name);
             this.panel2.Controls.Add(this.pic_avar);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 46);
+            this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(522, 62);
             this.panel2.TabIndex = 1;
@@ -120,20 +110,20 @@ namespace Social_Media.Form_component
             // 
             // rtxt_status
             // 
-            this.rtxt_status.BackColor = System.Drawing.Color.White;
+            this.rtxt_status.BackColor = System.Drawing.Color.Linen;
             this.rtxt_status.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.rtxt_status.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rtxt_status.Location = new System.Drawing.Point(0, 108);
+            this.rtxt_status.Location = new System.Drawing.Point(0, 62);
             this.rtxt_status.MaximumSize = new System.Drawing.Size(522, 13800);
             this.rtxt_status.Name = "rtxt_status";
-            this.rtxt_status.Size = new System.Drawing.Size(522, 138);
+            this.rtxt_status.Size = new System.Drawing.Size(522, 76);
             this.rtxt_status.TabIndex = 3;
             this.rtxt_status.Text = "Hãy viết suy nghĩ của bạn!";
             // 
             // pic_img
             // 
             this.pic_img.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pic_img.Location = new System.Drawing.Point(0, 246);
+            this.pic_img.Location = new System.Drawing.Point(0, 138);
             this.pic_img.Name = "pic_img";
             this.pic_img.Size = new System.Drawing.Size(522, 252);
             this.pic_img.TabIndex = 9;
@@ -145,7 +135,7 @@ namespace Social_Media.Form_component
             this.panel4.Controls.Add(this.pictureBox1);
             this.panel4.Controls.Add(this.label1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 498);
+            this.panel4.Location = new System.Drawing.Point(0, 390);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(522, 46);
             this.panel4.TabIndex = 10;
@@ -185,7 +175,7 @@ namespace Social_Media.Form_component
             this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rjButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjButton1.ForeColor = System.Drawing.Color.White;
-            this.rjButton1.Location = new System.Drawing.Point(0, 544);
+            this.rjButton1.Location = new System.Drawing.Point(0, 436);
             this.rjButton1.Name = "rjButton1";
             this.rjButton1.Size = new System.Drawing.Size(522, 44);
             this.rjButton1.TabIndex = 11;
@@ -202,22 +192,21 @@ namespace Social_Media.Form_component
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.BackColor = System.Drawing.Color.White;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackColor = System.Drawing.Color.Linen;
             this.ClientSize = new System.Drawing.Size(522, 594);
             this.Controls.Add(this.rjButton1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.pic_img);
             this.Controls.Add(this.rtxt_status);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximumSize = new System.Drawing.Size(522, 900);
             this.MinimumSize = new System.Drawing.Size(522, 200);
             this.Name = "write";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "write";
             this.Load += new System.EventHandler(this.write_Load);
-            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pic_close)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -232,8 +221,6 @@ namespace Social_Media.Form_component
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pic_close;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pic_public;

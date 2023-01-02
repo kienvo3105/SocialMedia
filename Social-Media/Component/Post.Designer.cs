@@ -258,6 +258,7 @@ namespace Social_Media.Component
             // 
             // pic_like
             // 
+            this.pic_like.BackgroundImage = global::Social_Media.Properties.Resources.icon_like;
             this.pic_like.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pic_like.Location = new System.Drawing.Point(4, 13);
             this.pic_like.Name = "pic_like";
