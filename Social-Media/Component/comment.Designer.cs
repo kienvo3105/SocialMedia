@@ -33,8 +33,8 @@ namespace Social_Media.Component
             this.pic_avar = new CustomControls.RJControls.RJCircularPictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.rjPanel1 = new CustomControls.RJControls.RJPanel();
+            this.lb_Cmt = new System.Windows.Forms.Label();
             this.lb_name = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pic_avar)).BeginInit();
             this.panel1.SuspendLayout();
             this.rjPanel1.SuspendLayout();
@@ -70,7 +70,7 @@ namespace Social_Media.Component
             this.rjPanel1.AutoSize = true;
             this.rjPanel1.BackColor = System.Drawing.Color.White;
             this.rjPanel1.BorderRadius = 30;
-            this.rjPanel1.Controls.Add(this.label1);
+            this.rjPanel1.Controls.Add(this.lb_Cmt);
             this.rjPanel1.Controls.Add(this.lb_name);
             this.rjPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rjPanel1.ForeColor = System.Drawing.Color.Black;
@@ -82,6 +82,20 @@ namespace Social_Media.Component
             this.rjPanel1.Name = "rjPanel1";
             this.rjPanel1.Size = new System.Drawing.Size(746, 74);
             this.rjPanel1.TabIndex = 2;
+            // 
+            // lb_Cmt
+            // 
+            this.lb_Cmt.AutoSize = true;
+            this.lb_Cmt.BackColor = System.Drawing.Color.Transparent;
+            this.lb_Cmt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lb_Cmt.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Cmt.Location = new System.Drawing.Point(0, 25);
+            this.lb_Cmt.MaximumSize = new System.Drawing.Size(760, 760);
+            this.lb_Cmt.Name = "lb_Cmt";
+            this.lb_Cmt.Padding = new System.Windows.Forms.Padding(10, 5, 10, 5);
+            this.lb_Cmt.Size = new System.Drawing.Size(760, 49);
+            this.lb_Cmt.TabIndex = 1;
+            this.lb_Cmt.Text = resources.GetString("lb_Cmt.Text");
             // 
             // lb_name
             // 
@@ -95,20 +109,6 @@ namespace Social_Media.Component
             this.lb_name.Size = new System.Drawing.Size(76, 25);
             this.lb_name.TabIndex = 0;
             this.lb_name.Text = "Kien Vo";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(0, 25);
-            this.label1.MaximumSize = new System.Drawing.Size(760, 760);
-            this.label1.Name = "label1";
-            this.label1.Padding = new System.Windows.Forms.Padding(10, 5, 10, 5);
-            this.label1.Size = new System.Drawing.Size(760, 49);
-            this.label1.TabIndex = 1;
-            this.label1.Text = resources.GetString("label1.Text");
             // 
             // comment
             // 
@@ -136,6 +136,6 @@ namespace Social_Media.Component
         private System.Windows.Forms.Panel panel1;
         private CustomControls.RJControls.RJPanel rjPanel1;
         private System.Windows.Forms.Label lb_name;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lb_Cmt;
     }
 }

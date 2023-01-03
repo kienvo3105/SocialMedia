@@ -16,5 +16,27 @@ namespace Social_Media.Component
         {
             InitializeComponent();
         }
+
+        private string _name;
+        private Image _avatar;
+        private string _comment;
+
+        public string User
+        {
+            get { return _name; }
+            set { _name = value;lb_name.Text = value; }
+        }
+
+        public string Comment
+        {
+            get { return _comment; }
+            set { _comment = value; lb_Cmt.Text = value; }
+        }
+
+        public Image Img
+        {
+            get { return _avatar; }
+            set { _avatar = value; pic_avar.Image = value; pic_avar.SizeMode = PictureBoxSizeMode.StretchImage; }
+        }
     }
 }
