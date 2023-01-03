@@ -39,40 +39,41 @@ namespace Social_Media.Component
             this.lb_cmtCount = new System.Windows.Forms.Label();
             this.lb_likeCount = new System.Windows.Forms.Label();
             this.pnl_liked = new System.Windows.Forms.Panel();
-            this.pnl_like = new System.Windows.Forms.Panel();
-            this.pnl_comments = new System.Windows.Forms.Panel();
-            this.rtxt_status = new System.Windows.Forms.RichTextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pic_likeCount = new System.Windows.Forms.PictureBox();
+            this.pnl_like = new System.Windows.Forms.Panel();
             this.pic_save = new System.Windows.Forms.PictureBox();
             this.pic_cmt = new System.Windows.Forms.PictureBox();
             this.pic_like = new System.Windows.Forms.PictureBox();
+            this.pnl_comments = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.bt_postCmt = new CustomControls.RJControls.RJButton();
+            this.txt_cmt = new CustomControls.RJControls.RJTextBox();
+            this.pic_cmtA = new CustomControls.RJControls.RJCircularPictureBox();
+            this.rtxt_status = new System.Windows.Forms.RichTextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.pic_menu = new System.Windows.Forms.PictureBox();
-            this.pic_avt = new CustomControls.RJControls.RJCircularPictureBox();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.show = new System.Windows.Forms.ToolStripMenuItem();
             this.Del = new System.Windows.Forms.ToolStripMenuItem();
+            this.pic_avt = new CustomControls.RJControls.RJCircularPictureBox();
             this.pic_img = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.pic_cmtA = new CustomControls.RJControls.RJCircularPictureBox();
-            this.txt_cmt = new CustomControls.RJControls.RJTextBox();
-            this.bt_postCmt = new CustomControls.RJControls.RJButton();
+            this.comment1 = new Social_Media.Component.comment();
             this.pnl_liked.SuspendLayout();
-            this.pnl_like.SuspendLayout();
-            this.pnl_comments.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.contextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_likeCount)).BeginInit();
+            this.pnl_like.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_save)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_cmt)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_like)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_menu)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_avt)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_img)).BeginInit();
+            this.pnl_comments.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_cmtA)).BeginInit();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_menu)).BeginInit();
+            this.contextMenuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_avt)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_img)).BeginInit();
             this.SuspendLayout();
             // 
             // lb_user
@@ -156,65 +157,6 @@ namespace Social_Media.Component
             this.pnl_liked.Size = new System.Drawing.Size(813, 44);
             this.pnl_liked.TabIndex = 18;
             // 
-            // pnl_like
-            // 
-            this.pnl_like.Controls.Add(this.lb_save);
-            this.pnl_like.Controls.Add(this.pic_save);
-            this.pnl_like.Controls.Add(this.lb_cmt);
-            this.pnl_like.Controls.Add(this.pic_cmt);
-            this.pnl_like.Controls.Add(this.lb_like);
-            this.pnl_like.Controls.Add(this.pic_like);
-            this.pnl_like.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnl_like.Location = new System.Drawing.Point(0, 649);
-            this.pnl_like.Name = "pnl_like";
-            this.pnl_like.Size = new System.Drawing.Size(813, 63);
-            this.pnl_like.TabIndex = 17;
-            // 
-            // pnl_comments
-            // 
-            this.pnl_comments.Controls.Add(this.panel2);
-            this.pnl_comments.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnl_comments.Location = new System.Drawing.Point(0, 712);
-            this.pnl_comments.Name = "pnl_comments";
-            this.pnl_comments.Size = new System.Drawing.Size(813, 160);
-            this.pnl_comments.TabIndex = 16;
-            // 
-            // rtxt_status
-            // 
-            this.rtxt_status.BackColor = System.Drawing.Color.White;
-            this.rtxt_status.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.rtxt_status.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.rtxt_status.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rtxt_status.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rtxt_status.Location = new System.Drawing.Point(0, 68);
-            this.rtxt_status.MaximumSize = new System.Drawing.Size(816, 3000);
-            this.rtxt_status.MinimumSize = new System.Drawing.Size(816, 10);
-            this.rtxt_status.Name = "rtxt_status";
-            this.rtxt_status.ReadOnly = true;
-            this.rtxt_status.Size = new System.Drawing.Size(816, 126);
-            this.rtxt_status.TabIndex = 19;
-            this.rtxt_status.Text = "Hello every one";
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.pic_menu);
-            this.panel1.Controls.Add(this.pic_avt);
-            this.panel1.Controls.Add(this.lb_time);
-            this.panel1.Controls.Add(this.lb_user);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(813, 68);
-            this.panel1.TabIndex = 15;
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.show,
-            this.Del});
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(136, 48);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
@@ -234,6 +176,20 @@ namespace Social_Media.Component
             this.pic_likeCount.Size = new System.Drawing.Size(28, 28);
             this.pic_likeCount.TabIndex = 0;
             this.pic_likeCount.TabStop = false;
+            // 
+            // pnl_like
+            // 
+            this.pnl_like.Controls.Add(this.lb_save);
+            this.pnl_like.Controls.Add(this.pic_save);
+            this.pnl_like.Controls.Add(this.lb_cmt);
+            this.pnl_like.Controls.Add(this.pic_cmt);
+            this.pnl_like.Controls.Add(this.lb_like);
+            this.pnl_like.Controls.Add(this.pic_like);
+            this.pnl_like.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnl_like.Location = new System.Drawing.Point(0, 649);
+            this.pnl_like.Name = "pnl_like";
+            this.pnl_like.Size = new System.Drawing.Size(813, 63);
+            this.pnl_like.TabIndex = 17;
             // 
             // pic_save
             // 
@@ -267,59 +223,15 @@ namespace Social_Media.Component
             this.pic_like.TabStop = false;
             this.pic_like.Click += new System.EventHandler(this.pic_like_Click);
             // 
-            // pic_menu
+            // pnl_comments
             // 
-            this.pic_menu.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pic_menu.BackgroundImage")));
-            this.pic_menu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pic_menu.ContextMenuStrip = this.contextMenuStrip1;
-            this.pic_menu.Location = new System.Drawing.Point(768, 3);
-            this.pic_menu.Name = "pic_menu";
-            this.pic_menu.Size = new System.Drawing.Size(30, 30);
-            this.pic_menu.TabIndex = 3;
-            this.pic_menu.TabStop = false;
-            // 
-            // pic_avt
-            // 
-            this.pic_avt.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pic_avt.BackgroundImage")));
-            this.pic_avt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pic_avt.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
-            this.pic_avt.BorderColor = System.Drawing.Color.RoyalBlue;
-            this.pic_avt.BorderColor2 = System.Drawing.Color.HotPink;
-            this.pic_avt.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
-            this.pic_avt.BorderSize = 2;
-            this.pic_avt.GradientAngle = 50F;
-            this.pic_avt.Location = new System.Drawing.Point(15, 3);
-            this.pic_avt.Name = "pic_avt";
-            this.pic_avt.Size = new System.Drawing.Size(50, 50);
-            this.pic_avt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pic_avt.TabIndex = 0;
-            this.pic_avt.TabStop = false;
-            // 
-            // show
-            // 
-            this.show.Image = global::Social_Media.Properties.Resources.icon_view;
-            this.show.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.show.Name = "show";
-            this.show.Size = new System.Drawing.Size(135, 22);
-            this.show.Text = "Ẩn bài viết";
-            // 
-            // Del
-            // 
-            this.Del.Image = global::Social_Media.Properties.Resources.icon_delete;
-            this.Del.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Del.Name = "Del";
-            this.Del.Size = new System.Drawing.Size(135, 22);
-            this.Del.Text = "Xóa bài viết";
-            // 
-            // pic_img
-            // 
-            this.pic_img.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pic_img.Location = new System.Drawing.Point(0, 194);
-            this.pic_img.Name = "pic_img";
-            this.pic_img.Size = new System.Drawing.Size(813, 356);
-            this.pic_img.TabIndex = 22;
-            this.pic_img.TabStop = false;
-            this.pic_img.Visible = false;
+            this.pnl_comments.Controls.Add(this.comment1);
+            this.pnl_comments.Controls.Add(this.panel2);
+            this.pnl_comments.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnl_comments.Location = new System.Drawing.Point(0, 712);
+            this.pnl_comments.Name = "pnl_comments";
+            this.pnl_comments.Size = new System.Drawing.Size(813, 160);
+            this.pnl_comments.TabIndex = 16;
             // 
             // panel2
             // 
@@ -332,20 +244,24 @@ namespace Social_Media.Component
             this.panel2.Size = new System.Drawing.Size(813, 66);
             this.panel2.TabIndex = 0;
             // 
-            // pic_cmtA
+            // bt_postCmt
             // 
-            this.pic_cmtA.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
-            this.pic_cmtA.BorderColor = System.Drawing.Color.RoyalBlue;
-            this.pic_cmtA.BorderColor2 = System.Drawing.Color.HotPink;
-            this.pic_cmtA.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
-            this.pic_cmtA.BorderSize = 2;
-            this.pic_cmtA.GradientAngle = 50F;
-            this.pic_cmtA.Location = new System.Drawing.Point(4, 6);
-            this.pic_cmtA.Name = "pic_cmtA";
-            this.pic_cmtA.Size = new System.Drawing.Size(50, 50);
-            this.pic_cmtA.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pic_cmtA.TabIndex = 0;
-            this.pic_cmtA.TabStop = false;
+            this.bt_postCmt.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.bt_postCmt.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.bt_postCmt.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.bt_postCmt.BorderRadius = 15;
+            this.bt_postCmt.BorderSize = 0;
+            this.bt_postCmt.FlatAppearance.BorderSize = 0;
+            this.bt_postCmt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bt_postCmt.ForeColor = System.Drawing.Color.White;
+            this.bt_postCmt.Location = new System.Drawing.Point(640, 21);
+            this.bt_postCmt.Name = "bt_postCmt";
+            this.bt_postCmt.Size = new System.Drawing.Size(98, 28);
+            this.bt_postCmt.TabIndex = 2;
+            this.bt_postCmt.Text = "Đăng bình luận";
+            this.bt_postCmt.TextColor = System.Drawing.Color.White;
+            this.bt_postCmt.UseVisualStyleBackColor = false;
+            this.bt_postCmt.Click += new System.EventHandler(this.bt_postCmt_Click);
             // 
             // txt_cmt
             // 
@@ -373,24 +289,124 @@ namespace Social_Media.Component
             this.txt_cmt.Texts = "Viết bình luận của bạn";
             this.txt_cmt.UnderlinedStyle = false;
             // 
-            // bt_postCmt
+            // pic_cmtA
             // 
-            this.bt_postCmt.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.bt_postCmt.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
-            this.bt_postCmt.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.bt_postCmt.BorderRadius = 15;
-            this.bt_postCmt.BorderSize = 0;
-            this.bt_postCmt.FlatAppearance.BorderSize = 0;
-            this.bt_postCmt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_postCmt.ForeColor = System.Drawing.Color.White;
-            this.bt_postCmt.Location = new System.Drawing.Point(640, 21);
-            this.bt_postCmt.Name = "bt_postCmt";
-            this.bt_postCmt.Size = new System.Drawing.Size(98, 28);
-            this.bt_postCmt.TabIndex = 2;
-            this.bt_postCmt.Text = "Đăng bình luận";
-            this.bt_postCmt.TextColor = System.Drawing.Color.White;
-            this.bt_postCmt.UseVisualStyleBackColor = false;
-            this.bt_postCmt.Click += new System.EventHandler(this.bt_postCmt_Click);
+            this.pic_cmtA.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
+            this.pic_cmtA.BorderColor = System.Drawing.Color.RoyalBlue;
+            this.pic_cmtA.BorderColor2 = System.Drawing.Color.HotPink;
+            this.pic_cmtA.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
+            this.pic_cmtA.BorderSize = 2;
+            this.pic_cmtA.GradientAngle = 50F;
+            this.pic_cmtA.Location = new System.Drawing.Point(4, 6);
+            this.pic_cmtA.Name = "pic_cmtA";
+            this.pic_cmtA.Size = new System.Drawing.Size(50, 50);
+            this.pic_cmtA.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic_cmtA.TabIndex = 0;
+            this.pic_cmtA.TabStop = false;
+            // 
+            // rtxt_status
+            // 
+            this.rtxt_status.BackColor = System.Drawing.Color.White;
+            this.rtxt_status.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtxt_status.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.rtxt_status.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rtxt_status.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rtxt_status.Location = new System.Drawing.Point(0, 68);
+            this.rtxt_status.MaximumSize = new System.Drawing.Size(816, 3000);
+            this.rtxt_status.MinimumSize = new System.Drawing.Size(816, 10);
+            this.rtxt_status.Name = "rtxt_status";
+            this.rtxt_status.ReadOnly = true;
+            this.rtxt_status.Size = new System.Drawing.Size(816, 126);
+            this.rtxt_status.TabIndex = 19;
+            this.rtxt_status.Text = "Hello every one";
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.pic_menu);
+            this.panel1.Controls.Add(this.pic_avt);
+            this.panel1.Controls.Add(this.lb_time);
+            this.panel1.Controls.Add(this.lb_user);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(813, 68);
+            this.panel1.TabIndex = 15;
+            // 
+            // pic_menu
+            // 
+            this.pic_menu.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pic_menu.BackgroundImage")));
+            this.pic_menu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pic_menu.ContextMenuStrip = this.contextMenuStrip1;
+            this.pic_menu.Location = new System.Drawing.Point(768, 3);
+            this.pic_menu.Name = "pic_menu";
+            this.pic_menu.Size = new System.Drawing.Size(30, 30);
+            this.pic_menu.TabIndex = 3;
+            this.pic_menu.TabStop = false;
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.show,
+            this.Del});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(136, 48);
+            // 
+            // show
+            // 
+            this.show.Image = global::Social_Media.Properties.Resources.icon_view;
+            this.show.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.show.Name = "show";
+            this.show.Size = new System.Drawing.Size(135, 22);
+            this.show.Text = "Ẩn bài viết";
+            // 
+            // Del
+            // 
+            this.Del.Image = global::Social_Media.Properties.Resources.icon_delete;
+            this.Del.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Del.Name = "Del";
+            this.Del.Size = new System.Drawing.Size(135, 22);
+            this.Del.Text = "Xóa bài viết";
+            // 
+            // pic_avt
+            // 
+            this.pic_avt.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pic_avt.BackgroundImage")));
+            this.pic_avt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pic_avt.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
+            this.pic_avt.BorderColor = System.Drawing.Color.RoyalBlue;
+            this.pic_avt.BorderColor2 = System.Drawing.Color.HotPink;
+            this.pic_avt.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
+            this.pic_avt.BorderSize = 2;
+            this.pic_avt.GradientAngle = 50F;
+            this.pic_avt.Location = new System.Drawing.Point(15, 3);
+            this.pic_avt.Name = "pic_avt";
+            this.pic_avt.Size = new System.Drawing.Size(50, 50);
+            this.pic_avt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic_avt.TabIndex = 0;
+            this.pic_avt.TabStop = false;
+            // 
+            // pic_img
+            // 
+            this.pic_img.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pic_img.Location = new System.Drawing.Point(0, 194);
+            this.pic_img.Name = "pic_img";
+            this.pic_img.Size = new System.Drawing.Size(813, 356);
+            this.pic_img.TabIndex = 22;
+            this.pic_img.TabStop = false;
+            this.pic_img.Visible = false;
+            // 
+            // comment1
+            // 
+            this.comment1.AutoSize = true;
+            this.comment1.Comment = null;
+            this.comment1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.comment1.Img = null;
+            this.comment1.Location = new System.Drawing.Point(0, 66);
+            this.comment1.MaximumSize = new System.Drawing.Size(800, 800);
+            this.comment1.MinimumSize = new System.Drawing.Size(253, 61);
+            this.comment1.Name = "comment1";
+            this.comment1.Size = new System.Drawing.Size(800, 74);
+            this.comment1.TabIndex = 1;
+            this.comment1.User = null;
             // 
             // Post
             // 
@@ -411,23 +427,24 @@ namespace Social_Media.Component
             this.Load += new System.EventHandler(this.Post_Load);
             this.pnl_liked.ResumeLayout(false);
             this.pnl_liked.PerformLayout();
-            this.pnl_like.ResumeLayout(false);
-            this.pnl_like.PerformLayout();
-            this.pnl_comments.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.contextMenuStrip1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_likeCount)).EndInit();
+            this.pnl_like.ResumeLayout(false);
+            this.pnl_like.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_save)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_cmt)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_like)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_menu)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_avt)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_img)).EndInit();
+            this.pnl_comments.ResumeLayout(false);
+            this.pnl_comments.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_cmtA)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_menu)).EndInit();
+            this.contextMenuStrip1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_avt)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_img)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -461,5 +478,6 @@ namespace Social_Media.Component
         private CustomControls.RJControls.RJButton bt_postCmt;
         private CustomControls.RJControls.RJTextBox txt_cmt;
         private CustomControls.RJControls.RJCircularPictureBox pic_cmtA;
+        private comment comment1;
     }
 }
