@@ -13,3 +13,19 @@ E:\OneDrive - Trường ĐH CNTT - University of Information Technology\2022-202
 E:\OneDrive - Trường ĐH CNTT - University of Information Technology\2022-2023\CS511_C#\Do An\Social-Media\Social-Media\obj\Debug\Social_Media.Component.comment.resources
 E:\OneDrive - Trường ĐH CNTT - University of Information Technology\2022-2023\CS511_C#\Do An\Social-Media\Social-Media\obj\Debug\Social_Media.Form_component.write.resources
 E:\OneDrive - Trường ĐH CNTT - University of Information Technology\2022-2023\CS511_C#\Do An\Social-Media\Social-Media\obj\Debug\Social-Media.csproj.AssemblyReference.cache
+D:\III\CS511\SocialMedia\Social-Media\bin\Debug\Social-Media.exe.config
+D:\III\CS511\SocialMedia\Social-Media\bin\Debug\Social-Media.exe
+D:\III\CS511\SocialMedia\Social-Media\bin\Debug\Social-Media.pdb
+D:\III\CS511\SocialMedia\Social-Media\obj\Debug\Social-Media.csproj.AssemblyReference.cache
+D:\III\CS511\SocialMedia\Social-Media\obj\Debug\Social-Media.csproj.SuggestedBindingRedirects.cache
+D:\III\CS511\SocialMedia\Social-Media\obj\Debug\Social_Media.Component.comment.resources
+D:\III\CS511\SocialMedia\Social-Media\obj\Debug\Social_Media.Component.Post.resources
+D:\III\CS511\SocialMedia\Social-Media\obj\Debug\Social_Media.Form_component.write.resources
+D:\III\CS511\SocialMedia\Social-Media\obj\Debug\Social_Media.Home.resources
+D:\III\CS511\SocialMedia\Social-Media\obj\Debug\Social_Media.Main.resources
+D:\III\CS511\SocialMedia\Social-Media\obj\Debug\Social_Media.Properties.Resources.resources
+D:\III\CS511\SocialMedia\Social-Media\obj\Debug\Social-Media.csproj.GenerateResource.cache
+D:\III\CS511\SocialMedia\Social-Media\obj\Debug\Social-Media.csproj.CoreCompileInputs.cache
+D:\III\CS511\SocialMedia\Social-Media\obj\Debug\Social-Media.csproj.CopyComplete
+D:\III\CS511\SocialMedia\Social-Media\obj\Debug\Social-Media.pdb
+D:\III\CS511\SocialMedia\Social-Media\obj\Debug\Social_Media.Login.resources
