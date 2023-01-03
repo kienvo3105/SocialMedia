@@ -58,7 +58,6 @@ namespace Social_Media.Component
             this.Del = new System.Windows.Forms.ToolStripMenuItem();
             this.pic_avt = new CustomControls.RJControls.RJCircularPictureBox();
             this.pic_img = new System.Windows.Forms.PictureBox();
-            this.comment1 = new Social_Media.Component.comment();
             this.pnl_liked.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_likeCount)).BeginInit();
@@ -225,7 +224,6 @@ namespace Social_Media.Component
             // 
             // pnl_comments
             // 
-            this.pnl_comments.Controls.Add(this.comment1);
             this.pnl_comments.Controls.Add(this.panel2);
             this.pnl_comments.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.pnl_comments.Location = new System.Drawing.Point(0, 712);
@@ -394,20 +392,6 @@ namespace Social_Media.Component
             this.pic_img.TabStop = false;
             this.pic_img.Visible = false;
             // 
-            // comment1
-            // 
-            this.comment1.AutoSize = true;
-            this.comment1.Comment = null;
-            this.comment1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.comment1.Img = null;
-            this.comment1.Location = new System.Drawing.Point(0, 66);
-            this.comment1.MaximumSize = new System.Drawing.Size(800, 800);
-            this.comment1.MinimumSize = new System.Drawing.Size(253, 61);
-            this.comment1.Name = "comment1";
-            this.comment1.Size = new System.Drawing.Size(800, 74);
-            this.comment1.TabIndex = 1;
-            this.comment1.User = null;
-            // 
             // Post
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -435,7 +419,6 @@ namespace Social_Media.Component
             ((System.ComponentModel.ISupportInitialize)(this.pic_cmt)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_like)).EndInit();
             this.pnl_comments.ResumeLayout(false);
-            this.pnl_comments.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_cmtA)).EndInit();
@@ -478,6 +461,5 @@ namespace Social_Media.Component
         private CustomControls.RJControls.RJButton bt_postCmt;
         private CustomControls.RJControls.RJTextBox txt_cmt;
         private CustomControls.RJControls.RJCircularPictureBox pic_cmtA;
-        private comment comment1;
     }
 }
